@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pro"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_acc"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/nav_brand"
+            android:icon="@drawable/ic_branding_watermark_black_24dp"
+            android:title="Brand" />
+        <item
+            android:id="@+id/nav_cat"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Category" />
+    </group>
+
+    <item android:title="Products">
+        <menu>
+            <item
+                android:id="@+id/nav_pro_add"
+                android:icon="@drawable/ic_add_circle_outline_black_24dp"
+                android:title="Add Products" />
+            <item
+                android:id="@+id/nav_pro_update"
+                android:icon="@drawable/ic_edit_black_24dp"
+                android:title="Update Products" />
+        </menu>
+    </item>
+
+    <item android:title="Category">
+        <menu>
+            <item
+                android:id="@+id/nav_cat_add"
+                android:icon="@drawable/ic_add_circle_outline_black_24dp"
+                android:title="Add Category" />
+            <item
+                android:id="@+id/nav_cat_update"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Update Category" />
+        </menu>
+    </item>
+
+    <item android:title="Brands">
+        <menu>
+            <item
+                android:id="@+id/nav_brand_add"
+                android:icon="@drawable/ic_add_circle_outline_black_24dp"
+                android:title="Add Brand" />
+            <item
+                android:id="@+id/nav_brand_update"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Update Brand" />
+        </menu>
+    </item>
+
+</menu>
